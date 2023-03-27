@@ -48,7 +48,7 @@
             </div>
         </section>
         <!-- Header Area -->
-        <section>
+        <section class="dark:bg-gray-900 bg-white dark:text-white">
 
             <div class="navbar  px-7">
                 <div class="navbar-start">
@@ -61,10 +61,12 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Homepage</a></li>
+                            class="menu menu-compact dropdown-content mt-3 p-2 shadow dark:bg-gray-900 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Brands</a></li>
                             <li><a>Portfolio</a></li>
-                            <li><a>About</a></li>
+                            <li><a>Blog</a></li>
                         </ul>
                     </div>
                     <a href="/" class="ml-4 normal-case text-xl lg:text-3xl font-bold dark:text-white">TechHelpBD</a>
@@ -80,6 +82,7 @@
                                 <li><a>Portfolio</a></li>
                                 <li><a>Blog</a></li>
                             </ul>
+
                         </div>
 
                         <button class="btn bg-indigo-600 btn-xs sm:btn-xs md:btn-md lg:btn-md rounded-full w-32">Let's
@@ -87,10 +90,10 @@
 
                     </div>
                 </div>
-                <div class="sm:hidden rounded-full h-10 w-10 lg:flex md:flex justify-center items-center ml-2 cursor-pointer bg-indigo-400 hover:bg-indigo-200 hover:transition-colors"
+                <div class="h-9 w-14 rounded-full lg:h-10 lg:w-10 lg:flex md:flex justify-center items-center ml-2 cursor-pointer bg-indigo-400 hover:bg-indigo-200 hover:transition-colors"
                     id="change_btn">
 
-                    <img id="change_image" class="w-5 h-5" src="img/moon.svg" alt="">
+                    <img id="change_image" class="w-5 h-5" src="img/sun.svg" alt="">
 
                 </div>
 
@@ -100,6 +103,83 @@
         </section>
 
     </header>
+    <!-- Hero Area -->
+    <section>
+        <div class="hero min-h-screen bg-white dark:bg-gray-900 dark:text-white">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="img/author.svg" class="rounded-lg" />
+                <div class="text-center sm:text-left">
+                    <h1 class="text-3xl font-extrabold">Creative Design & Experience.</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary rounded-full">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Area -->
+    <section class="py-20 bg-blue-50 dark:bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-0 mb-4 text-center py-5 dark:text-white">
+            <h2 class="font-bold text-3xl capitalize mb-3">Services we provide</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque et quasi ratione fugiat.</p>
+        </div>
+
+        <div class="container mx-auto px-4 mt-10 flex flex-col sm:flex-row justify-between">
+            <div
+                class="card card-compact w-50 bg-base-100 shadow-lg rounded-lg shadow-indigo-300/50 mr-0 sm:mr-4 mb-5 bg-white dark:bg-gray-800 dark:text-white p-5 m-5">
+                <img class="h-10 w-10 m-3" src="img/mobile.svg" />
+                <div class="text-left px-1">
+                    <h2 class="text-2xl font-bold">Mobile Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nemo velit? Sequi labore fuga
+                        adipisci magnam, vel molestiae excepturi possimus.
+
+                    </p>
+                    <p><a href="">Learn More 👉</a></p>
+
+                </div>
+            </div>
+            <div
+                class="card card-compact w-50 bg-base-100 shadow-lg rounded-lg shadow-indigo-300/50 mr-0 sm:mr-4 mb-5 bg-white dark:bg-gray-800 dark:text-white p-5 m-5">
+                <img class="h-10 w-10 m-3" src="img/brush.svg" />
+                <div class="text-left px-1">
+                    <h2 class="text-2xl font-bold">Photoshop Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nemo velit? Sequi labore fuga
+                        adipisci magnam, vel molestiae excepturi possimus.
+
+                    </p>
+                    <p><a href="">Learn More 👉</a></p>
+
+                </div>
+            </div>
+            <div
+                class="card card-compact w-50 bg-base-100 shadow-lg rounded-lg shadow-indigo-300/50 mr-0 sm:mr-4 mb-5 bg-white dark:bg-gray-800 dark:text-white p-5 m-5">
+                <img class="h-10 w-10 m-3" src="img/pencil.svg" />
+                <div class="text-left px-1">
+                    <h2 class="text-2xl font-bold">Copyrighting Content</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nemo velit? Sequi labore fuga
+                        adipisci magnam, vel molestiae excepturi possimus.
+
+                    </p>
+                    <p><a href="">Learn More 👉</a></p>
+
+                </div>
+            </div>
+            <div
+                class="card card-compact w-50 bg-base-100 shadow-lg rounded-lg shadow-indigo-300/50 mr-0 sm:mr-4 mb-5 bg-white dark:bg-gray-800 dark:text-white p-5 m-5">
+                <img class="h-10 w-10 m-3" src="img/chart.svg" />
+                <div class="text-left px-1">
+                    <h2 class="text-2xl font-bold">Brand Experiance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nemo velit? Sequi labore fuga
+                        adipisci magnam, vel molestiae excepturi possimus.
+
+                    </p>
+                    <p><a href="">Learn More 👉</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
     <script src="script.js" type="module"></script>
 </body>
 
