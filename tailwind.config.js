@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode : 'class',
+  darkMode: 'class',
   content: ['*'],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),
+    // require('@tailwindcss/aspect-ratio'),
+  ],
+
 };
